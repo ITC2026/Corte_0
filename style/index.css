@@ -1,0 +1,22 @@
+.border-purple {
+    border: 2px solid purple;
+    padding: 20px;
+}
+
+.bg-purple {
+    background-color: lavender;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+#unofficial-footer { 
+    font-size: 0.8em;
+}
