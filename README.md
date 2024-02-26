@@ -1,9 +1,8 @@
 # Corte 0
 ## Construcción de Software y Toma de Decisiones
 
-### URL al Proyecto
 
-
+[URL al Proyecto](https://corte-cero-construccion-software.netlify.app/)
 
 ### Integrantes
 - Daniel Fernández Clausen - A01254659
