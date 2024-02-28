@@ -1,0 +1,59 @@
+.card {
+    max-width: 100%;
+}
+
+.card-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    width: 100%;
+
+}
+
+.card-img-top {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.fill-logo {
+    height: 13.5rem;
+}
+
+.show-docs-wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-show-docs {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.docs-icon {
+    max-width: 3rem;
+    max-height: auto;
+}
+
+.dropdown-item-warning {
+    color: red;
+}
+
+.dropdownMenuButton {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.dropdownMenuButton:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdownMenuButton:focus {
+    background-color: #f0f0f0;
+}
