@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-main-direction {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    height: 100vh;
+    width: 5rem;
+    position: fixed;
+    background-color: #283343;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+}
+
+.navbar a img {
+    width: 30px;
+    height: auto;
+    fill: white;
+}
+
+main {
+    margin-left: 10rem;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    width: 90%;
+}
+
+.h3-style {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 2%;
+}
+
+.h4-style {
+    font-weight: normal;
+    font-size: 20px;
+    padding-right: 2rem;
+}
+
+.button-back {
+    color: #2D1154;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-back-box {
+    padding-bottom: 2%;
+}
+
+.rest-of-page {
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-project {
+    display: flex;
+    flex-direction: row;
+}
+
+.new-project-c1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-right: 10%;
+}
+
+.new-project-c1r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    padding-bottom: 2rem;
+}
+
+.project-name-input {
+    width: 20rem;
+}
+
+.project-desc-input {
+    width: 20rem;
+}
+
+.form-control-pj-desc {
+    height: 8rem;
+    text-align: left;
+}
+
+.new-project-c2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 10%;
+}
+
+.new-project-c2-button {
+    height: 3rem;
+    width: 12rem;
+    border-radius: 5px;
+    background-color: #44197E;
+}
+
+.table-projects {
+    width: 70rem;
+}
+
+.table-projects-head {
+    background-color: #2D1154;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.table-projects-row1 {
+    background-color: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    width: 328%;
+}
