@@ -9,35 +9,6 @@
     flex-direction: row;
 }
 
-.navbar {
-    height: 100vh;
-    width: 5rem;
-    position: fixed;
-    background-color: #283343;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 2rem;
-}
-
-.navbar a img {
-    width: 30px;
-    height: auto;
-    fill: white;
-}
 
 main {
     margin-left: 10rem;
