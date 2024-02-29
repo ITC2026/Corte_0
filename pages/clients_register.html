@@ -51,32 +51,64 @@ Feel free to customize it however you'd like. Focus on working in the <main> com
                 <a href="./clients.html"> <img src="../../images/icons/arrow-left.png" alt="Close"></a>
                 <h3 id="registry-title"> Registro de Cliente</h3>
 
-                <div class="registry-content">
-                    <div class="registry-forms">
+                <div class="registry-forms">
+                    <div class="form-wrap">
+                        <p class="input-text">Nombre del Cliente:</p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                        </div>
+                    </div>
+
+
+                    <div class="form-wrap">
+                        <p class="input-text"> Descripción del Cliente:</p>
+                        <div class="input-group  mb-3">
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-wrap">
+                        <p class="input-text"> Contrato:</p>
+                        <div class="input-group mb-3">
+                            <button type="button" id="upload-button" class="btn btn-secondary input-group"><i
+                                    class="fa fa-solid fa-upload"></i>Upload</button>
+                        </div>
+                    </div>
+
+
                         <div class="form-wrap">
-                            <p>Username</p>
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                            <p class="input-text"> Logo:</p>
+                            <div class="input-group mb-3" id="up-button-layout">
+                                <button type="button" class="upload-button"><i
+                                        class="fa fa-solid fa-plus"></i>Upload</button>
                             </div>
                         </div>
 
+                        <div class="form-wrap">
+
+                            <input type="checkbox" id="checkbox" name="checkbox">
+                            <label class="input-text" id="high_gross_unit"> High Gross Unit</label>
+
+                        </div>
 
 
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat nisi nam porro alias iusto
-                            odit
-                            quia
-                            soluta sit fugiat quasi fuga architecto at modi ducimus ipsa, et dolores maxime obcaecati.
-                        </p>
-                    </div>
                 </div>
 
+                <div id="finish-buttons-wrap">
+                    <div id="finish-buttons">
+                        <button type="button" class="btn btn-secondary">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Finalizar</button>
+                    </div>
+
+                </div>
             </div>
 
-        </main>
 
     </div>
-
+    </div>
     </main>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

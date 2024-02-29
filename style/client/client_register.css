@@ -4,20 +4,89 @@
 }
 
 .registry-forms {
+    margin-top: 3rem;
     margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    width: 100%;
 }
 
 .form-wrap {
     display: flex;
+    flex-direction: row;
+}
+
+.input-text {
+    width: 40%;
+}
+
+#upload-button {
+    display: flex;
     align-items: center;
+    justify-content: flex-start;
+
+    width: 15%;
 }
 
-.input-group {
-    margin-left: 3rem;
-    width: 50%;
-    height: auto;
+.fa-upload {
+    margin-right: 10px;
 }
 
-.registry-content {
-    margin-top: 3rem;
+.upload-button {
+    display: flex;
+    width: 6.5rem;
+    height: 6.5rem;
+    padding: 2.2rem 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 0.125rem;
+    border: 1px dashed var(--Gray-500, #ADB5BD);
+    background: var(--Gray-100, #F8F9FA);
+
+}
+
+#finish-buttons-wrap {
+    width: 100%;
+}
+
+#finish-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+
+#up-button-layout {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+.btn {
+    font-weight: 200;
+}
+
+.btn-primary {
+    margin-left: 1rem;
+}
+
+.form-same-line-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    text-align: left;
+}
+
+#high_gross_unit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
 }
