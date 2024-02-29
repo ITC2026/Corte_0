@@ -1,0 +1,23 @@
+#registry-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.registry-forms {
+    margin-left: 10%;
+}
+
+.form-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.input-group {
+    margin-left: 3rem;
+    width: 50%;
+    height: auto;
+}
+
+.registry-content {
+    margin-top: 3rem;
+}
