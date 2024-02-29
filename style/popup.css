@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b1b2cca;
+    /* Blue background color */
+}
+
+
+.navbar_img {
+    filter: invert(1);
+}
+
+.main-content {
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    border-radius: 20px;
+
+}
+
+.main-content>* {
+    margin-left: 2rem;
+}
+
+.navbar-main-direction {
+    padding: 20px;
+}
+
+.main-content {
+    margin-top: 20px;
+    /* Adding margin-top for the main content */
+    padding: 20px;
+}
+
+.main-content h3 {
+    margin-top: 10px;
+    /* Adding margin-top for the heading */
+}
+
+.main-content p {
+    margin-top: 10px;
+    /* Adding margin-top for the paragraphs */
+}
