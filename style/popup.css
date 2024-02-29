@@ -1,28 +1,31 @@
 body {
-    background-color: #0b1b2cca;
+    background-color: #606670;
     /* Blue background color */
 }
 
+.navbar {
+    background-color: #292A47;
+}
 
 .navbar_img {
-    filter: invert(1);
+    filter: invert(40%) sepia(6%) saturate(1173%) hue-rotate(177deg) brightness(91%) contrast(79%);
 }
 
 .main-content {
     background-color: rgb(255, 255, 255);
     height: 70vh;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 
 .main-content>* {
     margin-left: 2rem;
+    margin-right: 1rem;
 }
 
 .main-content {
-    margin-top: 20px;
-    /* Adding margin-top for the main content */
-    padding: 20px;
+
+    padding: 2rem;
 }
 
 .main-content h3 {
