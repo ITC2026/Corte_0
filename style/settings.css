@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-main-direction {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    height: 100vh;
+    width: 5rem;
+    position: fixed;
+    background-color: #283343;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+}
+
+.navbar a img {
+    width: 30px;
+    height: auto;
+    fill: white;
+}
+
+main {
+    margin-left: 10rem;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    width: 90%;
+}
+
+.h3-style {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 5%;
+}
+
+.settings-titles {
+    font-size: 20px;
+    width: fit-content;
+    font-weight: normal;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.settings-box {
+    width: 25%;
+}
+
+.settings-boxes {
+    margin-bottom: 1%;
+}
+
+.settings-dropdown {
+    background-color: #E9ECEF;
+    border: 1px solid #CED4DA;
+    color: #212529;
+    width: 100%;
+    text-align: right;
+}
+
+.btn-danger {
+    font-weight: light;
+    font-size: 20px;
+    background-color: #FF564D;
+}
+
+.range-labels {
+    display: flex;
+    justify-content: space-between;
+}
