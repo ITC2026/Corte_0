@@ -21,15 +21,24 @@
 
 .project-windows {
     padding-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .project-windows-active {
     color: #44197E;
-    padding-right: 5%;
+    text-decoration: none;
+    border: 1px transparent;
+    border-bottom: 2px solid #44197E;
+    padding: 1%;
 }
 
 .project-windows-inactive {
     color: #ADB5BD;
+    text-decoration: none;
+    border: 1px transparent;
+    border-bottom: 2px solid #ADB5BD;
+    padding: 1%;
 }
 
 #client-header {
