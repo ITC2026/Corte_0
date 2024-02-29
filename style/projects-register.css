@@ -110,11 +110,26 @@ main {
     text-align: left;
 }
 
+
 .new-project-c2 {
     display: flex;
+    flex-direction: column;
+}
+
+.new-project-c2r1 {
+    display: flex;
     flex-direction: row;
-    width: 100%;
-    padding-right: 10%;
+    justify-content: space-around;
+    padding-bottom: 60%;
+}
+
+
+.new-project-c2r2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:  right;
+    padding-bottom: 10%;
+    width: 20rem;
 }
 
 .new-project-c2-button {
@@ -141,4 +156,19 @@ main {
     display: flex;
     justify-content: center;
     width: 328%;
+}
+
+.btn-projects-color {
+    background-color: #44197E;
+    border: 1px solid #44197E;
+    height: 3rem;
+}
+
+.btn-projects {
+    text-decoration: none;
+    color:white;
+}
+
+#dropdownMenuButton {
+    margin-top: -3%;
 }
