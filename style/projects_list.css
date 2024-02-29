@@ -1,0 +1,14 @@
+.rediconcolor { 
+    color: #eb2949;
+
+    text-align: left;
+    display: flex;
+    align-items: center;
+        
+}
+
+.fa-solid { 
+    font-size: 1.3rem;
+        text-align: center;
+    margin-left: 1.5rem;
+}
