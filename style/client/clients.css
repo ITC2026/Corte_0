@@ -51,3 +51,8 @@
     background-color: rgb(68, 25, 126);
     border-color: rgb(68, 25, 126);
 }
+
+.purp-color:hover {
+    background-color: rgb(31, 10, 80);
+    border-color: rgb(31, 10, 80);
+}
