@@ -1,3 +1,7 @@
+.main-content { 
+    height: 80vh;
+}
+
 #registry-title {
     font-weight: 700;
     font-size: 2rem;
