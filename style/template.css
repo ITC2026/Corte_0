@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.navbar div {
+.navbar > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,4 +44,57 @@ main {
     margin-top: 5rem;
     margin-right: 10rem;
     width: 100%;
+}
+
+
+/* Path: style/home.css */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+}
+
+.proyect-col {
+    background-color: #f0f0f0;
+    width: 89%;
+
+}
+
+.proyect-col:nth-child(even) {
+    background-color: #ddd;
+}
+
+#client-buttons { 
+    display: flex;
+    flex-direction: row;
+}
+
+#client-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 98%;
+}
+
+#add-client-button {
+    margin-left: 5rem;
+    width: 50%;
+}
+
+.pagination-wrap { 
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.searchbar-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
 }
