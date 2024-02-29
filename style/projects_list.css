@@ -37,7 +37,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 20px;
-    width: 98%;
+    width: 100%;
 }
 
 #client-header div{
@@ -90,7 +90,11 @@
     text-align: center;
 }
 
+
 .table-projects-row-options {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    color: #44197E;
+    margin-top: 5%;
 }
