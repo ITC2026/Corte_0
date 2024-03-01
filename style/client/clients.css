@@ -48,6 +48,11 @@
     background-color: rgb(68, 25, 126);
 }
 
+.fa-search:hover, .fa-filter:hover{
+    background-color: rgb(31, 10, 80);
+    border-color: rgb(31, 10, 80);
+}
+
 .purp-color{
     background-color: rgb(68, 25, 126);
     border-color: rgb(68, 25, 126);
@@ -56,4 +61,10 @@
 .purp-color:hover {
     background-color: rgb(31, 10, 80);
     border-color: rgb(31, 10, 80);
+}
+
+.h3-style {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 2%;
 }

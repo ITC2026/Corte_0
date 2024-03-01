@@ -52,44 +52,56 @@ Feel free to customize it however you'd like. Focus on working in the <main> com
                 <h3 id="registry-title"> Registro de Cliente</h3>
 
                 <div class="registry-forms">
-                    <div class="form-wrap">
-                        <p class="input-text">Nombre del Cliente:</p>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                    <div class="registry-c1">
+                        <div class="form-wrap">
+                            <p class="input-text">Nombre del Cliente:</p>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Introduzca el nombre del cliente" aria-label="Username">
+                            </div>
+                        </div>
+
+
+                        <div class="form-wrap">
+                            <p class="input-text"> Descripción del Cliente:</p>
+                            <div class="input-group  mb-3">
+                                <textarea class="form-control" aria-label="With textarea" placeholder="Introduzca una breve descripción del cliente"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-wrap">
+                            <p class="input-text"> Contrato:</p>
+                            <div class="input-group mb-3">
+                                <button type="button" id="upload-button" class="btn btn-secondary input-group"><i
+                                        class="fa fa-solid fa-upload"></i>Upload</button>
+                            </div>
+                        </div>
+
+                        <div class="form-wrap">
+                            <p class="input-text"> Logo:</p>
+                            <div class="input-group mb-3">
+                                <button type="button" id="upload-button" class="btn btn-secondary input-group"><i
+                                        class="fa fa-solid fa-upload"></i>Upload</button>
+                            </div>
+                        </div>
+
+                        <div class="form-wrap">
+
+                            <input type="checkbox" id="checkbox" name="checkbox">
+                            <label class="input-text" id="high_gross_unit"> High Growth Unit</label>
+
                         </div>
                     </div>
 
-
-                    <div class="form-wrap">
-                        <p class="input-text"> Descripción del Cliente:</p>
-                        <div class="input-group  mb-3">
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                    <div class="registry-c2">
+                        <div class="form-wrap">
+                            <div class="division-title-button">
+                                <p class="input-text">División: </p>
+                                <button class="btn btn-secondary dropdown-toggle purp-color" type="button" id="dropdownMenuButton " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    División
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-wrap">
-                        <p class="input-text"> Contrato:</p>
-                        <div class="input-group mb-3">
-                            <button type="button" id="upload-button" class="btn btn-secondary input-group"><i
-                                    class="fa fa-solid fa-upload"></i>Upload</button>
-                        </div>
-                    </div>
-
-
-                    <div class="form-wrap">
-                        <p class="input-text"> Logo:</p>
-                        <div class="input-group mb-3" id="up-button-layout">
-                            <button type="button" class="upload-button"><i
-                                    class="fa fa-solid fa-plus"></i>Upload</button>
-                        </div>
-                    </div>
-
-                    <div class="form-wrap">
-
-                        <input type="checkbox" id="checkbox" name="checkbox">
-                        <label class="input-text" id="high_gross_unit"> High Growth Unit</label>
-
-                    </div>
-
 
                 </div>
 
@@ -97,7 +109,7 @@ Feel free to customize it however you'd like. Focus on working in the <main> com
                     <div id="finish-buttons">
                         <button type="button" class="btn btn-secondary"
                             onclick="window.location.href = './clients.html'">Cancelar</button>
-                        <button type="button" class="btn btn-primary"
+                        <button type="button" class="btn btn-primary purp-color"
                             onclick="window.location.href = './clients.html'">Finalizar</button>
                     </div>
 

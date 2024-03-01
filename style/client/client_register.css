@@ -9,9 +9,24 @@
 
 .registry-forms {
     margin-top: 3rem;
-    margin-left: 10%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.registry-c1{
+    width:100%;
+}
+
+.registry-c1 div{
+    padding-bottom: 0.4rem;
+}
+
+.registry-c2{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 0 2rem;
+    width:60%;
 }
 
 .input-group {
@@ -31,28 +46,18 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    background-color: rgb(68, 25, 126);
+    border-color: rgb(68, 25, 126);;
+    width: 23%;
+}
 
-    width: 15%;
+#upload-button:hover{
+    background-color: rgb(31, 10, 80);
+    border-color: rgb(31, 10, 80);
 }
 
 .fa-upload {
     margin-right: 10px;
-}
-
-.upload-button {
-    display: flex;
-    width: 6.5rem;
-    height: 6.5rem;
-    padding: 2.2rem 3.5rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    border-radius: 0.125rem;
-    border: 1px dashed var(--Gray-500, #ADB5BD);
-    background: var(--Gray-100, #F8F9FA);
-
 }
 
 #finish-buttons-wrap {
@@ -93,4 +98,27 @@
     justify-content: center;
     align-items: center;
     width: 10rem;
+}
+
+.purp-color{
+    background-color: rgb(68, 25, 126);
+    border-color: rgb(68, 25, 126);
+}
+
+.purp-color:hover {
+    background-color: rgb(31, 10, 80);
+    border-color: rgb(31, 10, 80);
+}
+
+.division-title-button{
+    display: flex;
+    flex-direction: row;
+}
+
+.division-title-button p{
+    padding-right: 7rem;
+}
+
+#checkbox{
+    accent-color:rgb(68, 25, 126);;
 }
